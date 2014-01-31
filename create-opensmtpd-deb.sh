@@ -4,7 +4,7 @@ set -e
 # Set directory variables.
 sdir="%%OpenSMTPD%%"
 pdir="%%packages%%"
-edir="%%sysconfdir%%/OpenSMTPD-dir"
+edir="%%sysconfdir%%/OpenSMTPD-deb"
 tdir="$(mktemp -d --tmpdir=$HOME/tmp)"
 idir="$tdir/installdir"
 
